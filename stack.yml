@@ -10,7 +10,7 @@ services:
       - -c
       - max_prepared_transactions=100
   bonita:
-    image: quay.io/bonitasoft/bonita-subscription:7.10.0
+    image: bonita:7.8.3
     volumes:
       - ~/bonita-lic:/opt/bonita_lic/
     ports:
